@@ -28,7 +28,7 @@ cd SimpleTimeService
 docker pull riddhigala18/simple-time-service:latest
 ```
 ``` bash
-docker run -p 5000:5000 simple-time-service:latest 
+docker run -d -p 5000:5000 simple-time-service:latest 
 ```
 ### 3. Test the service
 
