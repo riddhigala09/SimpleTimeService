@@ -36,7 +36,9 @@ docker run -p 5000:5000 simple-time-service:latest
 curl http://localhost:5000/
 ```
 Expected response:
+```json
 {
     "ip":"172.17.0.1",
     "timestamp":"2025-07-14T06:00:29.333965Z"
 }
+```
