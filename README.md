@@ -17,17 +17,24 @@ A minimal Flask-based microservice that returns the current UTC timestamp and th
 
 ```bash
 git clone https://github.com/riddhigala09/SimpleTimeService.git
+```
+``` bash
 cd SimpleTimeService
+```
 
-2. Pull and run the Docker image
+### 2. Pull and run the Docker image
 
+```bash
 docker pull riddhigala18/simple-time-service:latest
+```
+``` bash
 docker run -p 5000:5000 simple-time-service:latest 
+```
+### 3. Test the service
 
-3. Test the service
-
+```bash
 curl http://localhost:5000/
-
+```
 Expected response:
 {
     "ip":"172.17.0.1",
